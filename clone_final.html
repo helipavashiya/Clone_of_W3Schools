@@ -1,0 +1,489 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3Schools Online Web Tutorials</title>
+    <link rel="icon" href="https://www.w3schools.com/favicon.ico" />
+
+    <link rel="stylesheet" href="clone_final.css" />
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Google Font Family poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <!--Google font Family Source sans pro-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Google font family freckle face-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+
+    <header>
+        <div class="header-left">
+            <a href="#" class="menu-btn">
+                <div class="w3schools-logo">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1088px-W3Schools_logo.svg.png" />
+                </div>
+            </a>
+            <div href="#Tutorial" class="menu-btn " id="Tutorial-btn">
+                Tutorials
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div href="#exercises" class="menu-btn " id="exercise-btn">
+                Exercises
+                <i class="fa-solid fa-caret-down "></i>
+            </div>
+            <div href="#certificates" class="menu-btn " id="certificates-btn">
+                Certificates
+                <i class="fa-solid fa-caret-down" class="menu-btn"></i>
+            </div>
+            <div href="#services" class="menu-btn " id="services-btn">
+                Services
+            </a>
+            </div>
+
+            <!----mobile view---->
+
+           
+            <div class="menu-btn" id="Menu-btn-Mobile">
+                Menu
+                <i class="fa-solid fa-caret-down" class="menu-btn"></i>
+            </div>
+        </div>
+       
+        <div class="header-right">
+            <div class="toggleLightDark btn">
+                <i class="fa-solid fa-circle-half-stroke"></i>
+            </div>
+            <div class="toggleTranslate">
+                <i class="fa-solid fa-earth-europe"></i>
+            </div>
+            <div class="toggle_Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <a href="#setgoal"  id="setgoal-btn">
+                Set Goal
+            </a>
+            <a href="#Spaces" id="spaces">
+                Spaces
+            </a>
+            <a href="#Get Certified" id="getCertified">
+                Get Certified
+            </a>
+            <div class="button-group">
+                <button class="sign-up">Sign Up</button>
+                <button class="log-in">Log in</button>
+            </div>
+            <!--  <a href="#Login"
+                class="btn btn-link bg-green" id="login-btn">
+                Log in
+            </a> 
+         --> 
+        </div>
+    </header>
+    <section class="nav-static-bar">
+        <p class="navbar-tags">
+        &nbsp; &nbsp; &nbsp; HTML 
+        &nbsp; &nbsp; &nbsp; &nbsp; CSS  
+        &nbsp; &nbsp; &nbsp; &nbsp; JAVASCRIPT
+        &nbsp; &nbsp; &nbsp; &nbsp; SQL
+        &nbsp; &nbsp; &nbsp; &nbsp; PYTHON 
+        &nbsp; &nbsp; &nbsp; &nbsp; JAVA
+        &nbsp; &nbsp; &nbsp; &nbsp; PHP
+        &nbsp; &nbsp; &nbsp; &nbsp; HOW TO
+        &nbsp; &nbsp; &nbsp; &nbsp; W3.CSS
+        &nbsp; &nbsp; &nbsp; &nbsp; C
+        &nbsp; &nbsp; &nbsp; &nbsp; C++
+        &nbsp; &nbsp; &nbsp; &nbsp; C#
+        &nbsp; &nbsp; &nbsp; &nbsp; BOOTSTRAP
+        &nbsp; &nbsp; &nbsp; &nbsp; REACT
+        &nbsp; &nbsp; &nbsp; &nbsp; MYSQL
+        &nbsp; &nbsp; &nbsp; &nbsp; JQUERY
+        &nbsp; &nbsp; &nbsp; &nbsp; EXCEL
+        &nbsp; &nbsp; &nbsp; &nbsp; XML
+        &nbsp; &nbsp; &nbsp; &nbsp; DJANGO
+        &nbsp; &nbsp; &nbsp; &nbsp; NUMPY
+        &nbsp; &nbsp; &nbsp; &nbsp; PANDAS
+        </p>
+    </section>
+    <!-------------------------------------------------------------------------------------->
+     
+    <section class="section_Heading">
+        <div class="section_container">
+            <h1>Learn to Code</h1>
+            <p>With the world's largest web developer site.</p>
+            <div class="section_Heading_search">
+                <input type="text" placeholder="Search our tutorials,e.g.HTML" />
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+                <a href="section1.html" >Not Sure Where To Begin?</a>
+        </div>
+        
+        <!--for section line-->
+        <svg style="background-color:#D9EEE1;" width="100%" height="100" viewBox="0 0 100 100"
+            preserveAspectRatio="none">
+            <path id="wavepath" d="M0,0  L110,0C35,150 35,0 0,100z" fill="#282A35"></path>
+        </svg>
+       
+    </section>
+    <div class="svgBug"></div>
+
+    <section class="section_html">
+        <div class="section_left">
+            <h1>HTML</h1>
+            <p>The language for building web pages</p>
+            <a href="#A1" class="bg-green">Learn HTML</a>
+            <a href="#A2" class="bg-yellow">Video Tutorial</a>
+            <a href="#A3" class="bg-black">HTML References</a>
+            <a href="#A4"class="bg-pink">Get Certified</a>
+        </div>
+            <div class="code-box">
+                <h2> &nbsp;&nbsp;HTML Example:</h2>
+                <div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img_2.png" height="345px" width="455px"><br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;
+                    <button class="bg-green"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Try it Yourself&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></button>
+                </div>
+            </div>
+        </div>
+    </section>  
+    </div>
+    <section class="section_css">
+        <div class="section_left">
+            <h1>CSS</h1>
+            <p>The language for styling web pages</p>
+            <a href="#B1" class="bg-green">Learn CSS</a>
+            <a href="#B2" class="bg-black">CSS References</a>
+            <a href="#B3"
+                class="bg-pink">Get Certified</a>
+        </div>
+        <div class="code-box1">
+            <h2> &nbsp;&nbsp;CSS Example:</h2>
+            <div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img_3.png" height="305px" width="415px"><br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="bg-green"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Try it Yourself&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></button>
+            </div>
+        </div>
+    </section>
+    </div>
+    <section class="section_javascript">
+        <div class="section_left">
+            <h1>JavaScript</h1>
+            <p>The language for programming web pages</p>
+            <a href="#C1" class="bg-green">Learn JavaScript</a>
+            <a href="#C2" style="text-align: justify;" class="bg-white">JavaScript References</a>
+            <a href="#C3" class="bg-pink">Get Certified</a>
+        </div>
+        <div class="code-box2">
+            <h2> &nbsp;&nbsp;JavaScript Example:</h2>
+            <div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img_4.png" height="260px" width="415px"><br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="bg-green"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Try it Yourself&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_python">
+        <div class="section_left">
+            <h1>Python</h1>
+            <p>A popular programming language</p>
+            <a href="#D1" class="bg-green">Learn Python</a>
+            <a href="#D2" class="bg-black ">Python References</a>
+            <a href="#D3"
+                class="bg-pink">Get Certified</a>
+        </div>
+        <div class="code-box3">
+            <h2> &nbsp;&nbsp;Python Example:</h2>
+            <div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img_1.png" height="260px" width="415px"><br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="bg-green"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Try it Yourself&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_sql">
+        <div class="section_left">
+            <h1>SQL</h1>
+            <p>A language for accessing databases</p>
+            <a href="#E1" class="bg-green">Learn SQL</a>
+            <a href="#E2" class="bg-black ">SQL References</a>
+            <a href="#E3"
+                class="bg-pink">Get Certified</a>
+        </div>
+        <div class="code-box4">
+            <h2> &nbsp;&nbsp;SQL Example:</h2>
+            <div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img_5.png" height="250px" width="385px"><br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="bg-green"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Try it Yourself&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></button>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------------------------------------------->
+    <section class="courses_card_container">
+        <div class="courses_bigCard">
+            <div class="bg-pink">
+                <h2>PHP</h2>
+                <p>A web server programming language</p>
+                    <button class="bg-black btn">Learn PHP</button>
+            </div>
+
+            <div class="bg-yellow">
+                <h2>jQuery</h2>
+                <p>A JS library for developing web pages</p>
+                    <button class="bg-black btn">Learn jQuery</button>
+            </div>
+
+            <div class="bg-white">
+                <h2>Java</h2>
+                <p>A programming language</p>
+                    <button class="bg-black btn">Learn Java</button>
+            </div>
+
+            <div class="bg-lightGreen">
+                <h2>C++</h2>
+                <p>A programming language</p>
+                <button class="bg-black btn">Learn C++</button>
+                
+            </div>
+            <div class="bg-blue">
+                <h2>W3.CSS</h2>
+                <p>A CSS framework for faster and better responsive web pages</p>
+                    <button class="bg-black btn">Learn W3.CSS</button>
+            </div>
+
+            <div class="bg-grey">
+                <h2>Bootstrap</h2>
+                <p>A CSS framework for designing better web pages</p>
+                    <button class="bg-black btn">Learn Bootstrap</button>
+            </div>
+            </div>
+            <img src="img_6.png" height="400px" width="1473px"><br>
+            <div align="center">
+                <section class="section_js" ></section>
+                <div>
+                <button class="bg-green"><strong>&nbsp;&nbsp;&nbsp;&nbsp;Learn More&nbsp;&nbsp;&nbsp;&nbsp; </strong></button>
+                </div>
+                </section>
+            </div>
+        </section>
+
+        <!--my learning-->
+    <section class="learning_section bg-lightGreen">
+        <div class="learning_container">
+            <h1>My Learning</h1>
+            <p>Track your progress with the free "My Learning" program here at W3Schools.</p>
+            <p>Log in to your account, and start earning points!</p>
+            <img src="https://www.w3schools.com/myl-green-off.png" />
+            <a href="#F1" class="bg-green signupFree btn"><b>Sign Up for free</b></a>
+
+        </div>
+    </section>
+    <!-- Pro user section -->
+    <section class="pro-user-section">
+        <div class="pro-user">
+            <strong>
+                <p id="p2"><strong>Become a PRO User</strong></p>
+            <p id="p1">And unlock powerful features:</p>
+            <p id="p3">Browse W3Schools without ads<br>Website hosting(Includes <u>Spaces</u> PRO)<br>Access to our <u>HTML Video Tutorial</u></p>
+            </strong>
+            <br>
+            <section class="section_js" align="center"></section>
+                <div>
+                    <button class="bg-green" ><strong>&nbsp;&nbsp;&nbsp;&nbsp;Learn More&nbsp;&nbsp;&nbsp;&nbsp; </strong></button>
+                </div>
+            </section>
+    
+        </div>
+    </section>
+
+    <!---color section-->
+    <section>
+    <div class="colorSection">
+        <div class="colorSection_container">
+            <h1>Color Picker</h1>
+            <p>W3Schools' famous color picker:</p>
+            <img src="https://www.w3schools.com/images/colorpicker.png" />
+        </div>
+    </div>
+    </section>
+
+            
+    <!---code game-->
+    <section class="codeGame_container">
+        <h1>Code Game</h1>
+        <p>Help the Lynx collect pine cones!</p>
+        <img src="https://www.w3schools.com/images/w3lynx_200.png" />
+        <div class="codeGameBtn_container">
+            <button class="bg-black"><a href="#G1"><strong>Play Game</strong></a></button>
+        </div>
+    </section>
+
+    <!---excercise and quiz-->
+    <section>
+    <div class="section_exercise">
+        <div class="section_exercise_container">
+            <h1>Exercises and Quizzes</h1>
+            <p>Test your skills!</p>
+            <div class="section_exercise_quiz">
+                <a href="#H1" class="bg-green">Exercises</a>
+                <a href="#H2" class="bg-yellow">Quizzes</a>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- web templates-->
+    <section class="web-templates">
+        <b>Web Templates</b>
+        <p>Browse our selection of <strong>free</strong> responsive HTML Templates</p>
+        <img src="img_7.jpg" height="385px" width="1200px"><br><br><br>
+        <div align="center">
+            <section class="section_js" ></section>
+            <div>
+            <button class="bg-black"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Browse Templates&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></button>
+            </div>
+            </section>
+        </div>
+    </section>
+    <!-- footer -->
+   <section>
+    <section>
+        <div class="footer-nav-bar">
+           <div class="w3schools-logo-nav">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1088px-W3Schools_logo.svg.png"  />
+            </div>
+            <div class="footer-nav-heading">
+                <ul class="footer-nav2">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li>SPACES </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li>UPGRADE </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li>AD-FREE </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li>NEWSLETTER</li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li>GET CERTIFIED</li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li>REPORT ERROR </li>
+                </ul>
+                   
+            </div>
+        </div>
+        <div class="reference">
+            <ul class="footer-tutorial">
+                <li><h3>Top Tutorials</h3></li><br>
+                <div class="footer-small-size">
+                    <li>HTML Tutorial</li>
+                    <li>CSS Tutorial</li>
+                    <li>JavaScript Tutorial</li>
+                    <li>How To Tutorial</li>
+                    <li>SQL Tutorial</li>
+                    <li>Python Tutorial</li>
+                    <li>W3.CSS Tutorial</li>
+                    <li>Bootstrap Tutorial</li>
+                    <li>PHP Tutorial</li>
+                    <li>Java Tutorial</li>
+                    <li>C++ Tutorial</li>
+                    <li>jQuery Tutorial</li>
+                </div>
+            </ul>
+            <ul class="footer-references">
+                <li><h3>Top References</h3></li><br>
+                <div class="footer-small-size">
+                    <li>HTML references </li>
+                    <li>CSS references </li>
+                    <li>JavaScript references</li>
+                    <li>SQL references</li>
+                    <li>Python references</li>
+                    <li>W3.CSS references</li>
+                    <li>Bootstrap references</li>
+                    <li>PHP references</li>
+                    <li>HTML Colors</li>
+                    <li>Java references</li>
+                    <li>Angular references</li>
+                    <li>jQuery references</li>
+                </div>
+                
+            </ul>
+            <ul class="footer-top-example">
+                <li><h3>Top Examples</h3></li><br>
+                <div class="footer-small-size">
+                    <li>HTML Examples </li>
+                    <li>CSS Examples </li>
+                    <li>JavaScript Examples </li>
+                    <li>How To Examples</li>
+                    <li>SQL Examples</li>
+                    <li>Python Examples</li>
+                    <li> W3.CSS Examples</li>
+                    <li>Bootstrap Examples</li>
+                    <li>PHP Examples</li>
+                    <li>Java Examples</li>
+                    <li>XML Examples</li>
+                    <li>jQuery Examples</li>
+                </div>
+                
+            </ul>
+            <ul class="footer-get-certified">
+                <li><h3>Get Certified</h3></li><br>
+                <div class="footer-small-size">
+                    <li>HTML Certificate </li>
+                    <li>CSS Certificate </li>
+                    <li>JavaScript Certificate</li>
+                    <li>Front End Certificate</li>
+                    <li>SQL Certificate</li>
+                    <li>Python Certificate</li>
+                    <li>PHP Certificate</li>
+                    <li>jQuery Certificate</li>
+                    <li>Java Certificate</li>
+                    <li>C++ Certificate</li>
+                    <li>C# Certificate</li>
+                    <li>XML Certificate</li>                    
+                </div>
+            </ul>
+        </div>
+    <footer class="footer">
+        <div class="socialMedia">
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            
+            <div class="footer-top"> 
+                <div class="forumandAbout">
+                    <a href="#I1">FORUM</a>
+                    <a href="#I2">ABOUT</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer_des">
+            <p>W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and learning.<br>
+                Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content.<br> 
+                While using W3Schools, you agree to have read and accepted our <a href="#J1">terms of use</a><a href="#J2">cookie and privacy policy.</a><br><br>
+                <a href="#J3">Copyright 1999-2024</a> by Refsnes Data. All Rights Reserved.<a href="#J4">W3Schools is Powered by W3.CSS</a></p>
+        </div>
+    </footer>
+    </section>
+    
+        
+    </body>
+
+
